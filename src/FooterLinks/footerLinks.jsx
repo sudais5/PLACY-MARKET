@@ -1,6 +1,7 @@
 
 import React from 'react'
-import './footerLinks.css'
+import "./footerLinks.css";
+
 import FacebookIcon from '../assets/facebookicon.png'
 import Instagramicon from '../assets/instagramicon.png'
 import LinkedinIcon from '../assets/linkedinicon.png'
