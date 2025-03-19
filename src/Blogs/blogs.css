@@ -1,0 +1,142 @@
+/* Default styles */
+.main-blogs {
+    text-align: center;
+}
+
+.title-blog {
+    width: 50%;
+    margin: auto;
+}
+
+.content-blog { 
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content-first-block,
+.content-second-block {
+    width: 40%;
+}
+.content-second-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.content-img img{
+    margin-right: 100%;
+}
+.front-blog-conent-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 10px;
+}
+.front-blog-conent-title p{
+    color: #737373;
+}
+p{
+    color: #737373;
+}
+
+.blogs-list1,
+.blogs-list2,
+.blogs-list3 {
+    height: 170px;
+    border: 1px solid #737373;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+
+}
+
+.blog-list-info {
+    width: 40%;
+    height: 150px; 
+
+}
+.blog-list-info p{
+    color: #737373;
+}
+.blog-list-img {
+    height: 120px;
+    width: 199px;
+}
+
+.blog-list-img img {
+    height: 120px;
+}
+
+/* Media Queries */
+/* Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+    .content-blog {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .content-first-block,
+    .content-second-block {
+        width: 100%;
+    }
+
+    .title-blog {
+        width: 70%;
+    }
+}
+
+/* Mobile Devices (480px and below) */
+@media screen and (max-width: 480px) {
+    .title-blog {
+        width: 90%;
+    }
+
+    .blogs-list1,
+    .blogs-list2,
+    .blogs-list3 {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .blog-list-info,
+    .blog-list-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-list-img img {
+        height: auto;
+        max-width: 100%;
+    }
+
+    .front-blog-conent-title {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .content-blog {
+        margin-top: 30px;
+        gap: 40px;
+    }
+}
+
+/* Small Mobile Devices (360px and below) */
+@media screen and (max-width: 360px) {
+    .title-blog {
+        width: 95%;
+    }
+
+    .blogs-list1,
+    .blogs-list2,
+    .blogs-list3 {
+        padding: 15px;
+    }
+
+    .blog-list-info {
+        font-size: 14px;
+    }
+}

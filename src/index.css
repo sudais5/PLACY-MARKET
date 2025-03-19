@@ -1,0 +1,16 @@
+
+:root { margin: 0;
+  padding: 0;
+ 
+ 
+  color: rgba(0, 0, 0, 0.87);
+  background-color: #FFFFFF;
+}
+body {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+
+  color:   #737373;
+}

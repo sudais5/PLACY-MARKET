@@ -1,0 +1,95 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  /* Example background color */
+}
+
+.logo h2 {
+  margin: 0;
+  font-size: 1.5em;
+}
+
+.logo span {
+  font-weight: bold;
+  color: #ff6600; /* Example accent color */
+}
+
+.nav nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav nav ul li {
+  margin-left: 20px;
+}
+
+.nav nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.log-signup button {
+  padding: 8px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-btn {
+  background-color: transparent;
+  color: #333;
+}
+
+.signup-btn {
+  background-color: #ff6600;
+  color: white;
+}
+
+/* Mobile styles */
+.menu-toggle {
+  background: none;
+  border: none;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 0;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 60px; /* Adjust as needed */
+  right: 20px;
+  background-color: white;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.mobile-menu nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mobile-menu nav ul li {
+  margin-bottom: 10px;
+}
+
+.mobile-menu nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.mobile-menu .log-signup {
+  display: flex;
+  flex-direction: column;
+}
+
+.mobile-menu .log-signup button {
+  margin: 5px 0;
+}
